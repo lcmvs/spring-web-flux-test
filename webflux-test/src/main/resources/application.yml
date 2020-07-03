@@ -1,0 +1,14 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: webflux-test
+  # jackson时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    default-property-inclusion: always
+  webflux:
+    base-path: /webflux
+
